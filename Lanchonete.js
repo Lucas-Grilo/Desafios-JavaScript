@@ -1,24 +1,15 @@
-let lanche = prompt('Digite um número');
-let adicional = prompt('Digite um número');
+let lanche = prompt('Escolha o pedido pelo número: \n 1 - Hambúrguer \n 2 - Pizza \n 3 - Salada');
+let adicional = prompt('Vai querer bebida? 1-Sim ou 2-Não');
 
-if (arma == "Faca" && motivo == "Vingança"){
-    alert("O Assassina é o João");
-} else if(arma != "Faca" || motivo != "Vingança"){
-    alert("Não existe relação entre a arma e o motivo.")
+let Hangurguer = 1;
+let Pizza = 2;
+let Salada = 3;
+let Sim = 1;
+let Nao = 1;
+if (lanche == "1"){
+    alert("Você escolheu o Hamburger.");
+} if(adicional = "1"){
+    alert("Você pediu bebida adicional.");
+} else if(adicional = "2"){
+    alert("Você não pediu bebida adicional.");
 }
-
-if (arma == "Veneno" && motivo == "Dinheiro"){
-    alert("A Assassina é a Maria");
-} else if(arma != "Veneno" || motivo != "Dinheiro"){
-    alert("Não existe relação entre a arma e o motivo.")
-}
-
-if (arma == "Pistola" && motivo == "Ciúmes"){
-    alert("O Assassina é o Pedro");
-} else if(arma != "Pistola" || motivo != "Ciúmes"){
-    alert("Não existe relação entre a arma e o motivo.")
-}
-
-
-
-
