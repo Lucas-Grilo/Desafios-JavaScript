@@ -1,5 +1,5 @@
-let arma = prompt('Escreva uma arma');
-let motivo = prompt('Escreva um motivo');
+let lanche = prompt('Digite um número');
+let adicional = prompt('Digite um número');
 
 if (arma == "Faca" && motivo == "Vingança"){
     alert("O Assassina é o João");
